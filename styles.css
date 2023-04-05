@@ -6,13 +6,13 @@
 
     div.flex {
       display: flex;
-      background: yellow;
+      background: rgb(255, 238, 0);
       height: 100%;
     }
 
     div.left {
       flex-grow: 1;
-      background: yellow;
+      background: rgb(255, 238, 0);
     }
 
     div.middle {
@@ -64,4 +64,9 @@
     h3 {
       color:rgb(58, 122, 242);
       clear: right;
+    }
+
+    div.flexm {
+      display: flex;
+      justify-content: space-between;
     }
